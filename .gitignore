@@ -1,0 +1,7 @@
+.idea/
+data/
+CGAN_model/README.md
+CGAN_model/model/
+Inception_model/model/
+doc/
+*.pyc
