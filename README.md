@@ -221,11 +221,11 @@ Validation of the code was performed on a Linux machine with a Ubuntu 14.04, Nvi
 
 ## Call the API with curl
 
-curl -X POST -H "Content-Type: multipart/form-data" -F "file=@test.json" http://34.227.32.180:5000/submit
+curl -X POST -H "Content-Type: multipart/form-data" -F "file=@test.json" http://0.0.0.0:5000/submit
 
-curl -v -X POST -H "Content-Type: multipart/form-data" -F "file=@test.json" http://34.227.32.180:5000/submit
+curl -v -X POST -H "Content-Type: multipart/form-data" -F "file=@test.json" http://0.0.0.0:5000/submit
 
-curl -o resutl.json -v -X POST -H "Content-Type: multipart/form-data" -F "file=@test.json" http://34.227.32.180:5000/submit
+curl -o resutl.json -v -X POST -H "Content-Type: multipart/form-data" -F "file=@test.json" http://0.0.0.0:5000/submit
 
 ## Acknowledgments
 This is a port of [pix2pix](https://github.com/phillipi/pix2pix) from Torch to Tensorflow.  It also contains colorspace conversion code ported from Torch.  Thanks to the Tensorflow team for making such a quality library!  And special thanks to Phillip Isola for answering my questions about the pix2pix code.
